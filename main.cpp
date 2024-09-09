@@ -7,8 +7,8 @@ int main(){
     float estTax = 0.04, cntyTax = 0.02;
   
     cout << "Total Sales: $" << income << "\n";
-    cout << "\nEstate Tax: " << estTax*100 << "%\n";
-    cout << "County Tax: " << cntyTax*100 << "%\n";
+    cout << "\nEstate Tax: " << estTax*100 << "% = $" << income*estTax << "\n";
+    cout << "County Tax: " << cntyTax*100 << "% = $" << income*cntyTax << "\n";
     cout << "\nTaxes Due: $" << income*(estTax+cntyTax) << "\n";
 
     return 0;
